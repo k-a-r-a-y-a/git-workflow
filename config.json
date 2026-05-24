@@ -1,0 +1,19 @@
+{
+    "appName": "Cloud Cost Optimizer",
+    "version": "1.2.0",
+    "environment": "staging",
+    "features": {
+        "authentication": false,
+        "dashboard": false,
+        "reports": true
+    },
+    "api": {
+        "endpoint": "https://api.cloudcost.com/v2",
+        "timeout": 60
+    },
+    "reports": {
+        "formats": ["PDF", "CSV", "JSON"],
+        "retentionDays": 90,
+        "scheduleEnabled": true
+    }
+}
