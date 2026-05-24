@@ -3,12 +3,17 @@
     "version": "1.0.0",
     "environment": "production",
     "features": {
-        "authentication": false,
+        "authentication": true,
         "dashboard": false,
         "reports": false
     },
     "api": {
         "endpoint": "https://api.cloudcost.com/v1",
         "timeout": 30
+    },
+    "auth": {
+        "sessionTimeout": 3600,
+        "maxLoginAttempts": 5,
+        "requireMFA": false
     }
 }
