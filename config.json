@@ -1,0 +1,10 @@
+{
+    "appName": "Cloud Cost Dashboard",
+    "version": "1.0.0",
+    "features": {
+        "dashboard": true,
+        "costTracking": true,
+        "alerts": false
+    },
+    "apiEndpoint": "https://api.cloudcost.com/v1"
+}
