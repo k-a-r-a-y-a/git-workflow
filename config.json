@@ -1,0 +1,10 @@
+{
+    "appName": "Cloud Cost Dashboard",
+    "version": "1.0.0",
+    "features": {
+        "userAuth": false,
+        "costTracking": false,
+        "reporting": false
+    },
+    "refreshInterval": 30
+}
