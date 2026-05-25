@@ -1,16 +1,15 @@
 {
-<<<<<<< HEAD
-    "appName": "Cloud Cost Dashboard",
-    "version": "1.1.0",
+    "appName": "Cloud Cost Optimizer",
+    "version": "1.2.0",
     "environment": "production",
     "features": {
         "authentication": true,
         "dashboard": true,
-        "reports": false
+        "reports": true
     },
     "api": {
         "endpoint": "https://api.cloudcost.com/v2",
-        "timeout": 45
+        "timeout": 60
     },
     "auth": {
         "sessionTimeout": 3600,
@@ -21,23 +20,10 @@
         "refreshInterval": 30,
         "defaultView": "weekly",
         "widgets": ["cost", "savings", "forecast"]
-=======
-    "appName": "Cloud Cost Optimizer",
-    "version": "1.2.0",
-    "environment": "staging",
-    "features": {
-        "authentication": false,
-        "dashboard": false,
-        "reports": true
-    },
-    "api": {
-        "endpoint": "https://api.cloudcost.com/v2",
-        "timeout": 60
     },
     "reports": {
         "formats": ["PDF", "CSV", "JSON"],
         "retentionDays": 90,
         "scheduleEnabled": true
->>>>>>> feature/reports
     }
 }
