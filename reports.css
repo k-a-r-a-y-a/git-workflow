@@ -1,0 +1,37 @@
+.reports-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.report-filters {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+}
+
+#reportOutput {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 400px;
+}
